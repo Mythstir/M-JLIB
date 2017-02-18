@@ -1,11 +1,11 @@
 #With package
-javac -d . name.java
-java directory.name
+  javac -d . name.java
+  java directory.name
 
 #To compile it to jar
-Make a manifest.txt 
-then write in the text file:
-Main-Class: mainclass
-then type in cli:
-jar cvfm filename.jar Manifest.txt *.class
+-Make a Manifest.txt 
+-then write in the text file:
+  Main-Class: mainclass
+-then type in the cli:
+  jar cvfm filename.jar Manifest.txt *.class
 
