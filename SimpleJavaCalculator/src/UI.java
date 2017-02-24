@@ -208,7 +208,7 @@ public class UI extends JFrame {
   }
  }
 
- //The Decimalization method
+ //The Decimalization anonymous class
  class Point implements ActionListener {
   public void actionPerformed(ActionEvent e) {
    String str = ((JButton)e.getSource()).getText();
@@ -223,7 +223,7 @@ public class UI extends JFrame {
   }
  }
 
- //The Addition method
+ //The Addition anonymous class
  class Addition implements ActionListener {
   public void actionPerformed(ActionEvent e) {
    if(Exe_operate) { 
@@ -239,7 +239,7 @@ public class UI extends JFrame {
   } 
  }
  
- //The Multiplication method
+ //The Multiplication anonymous class
  class Multiplication implements ActionListener {
   public void actionPerformed(ActionEvent e) {
    if(Exe_operate) { 
@@ -255,7 +255,7 @@ public class UI extends JFrame {
   }
  }
  
- //The Division method
+ //The Division anonymous class
  class Division implements ActionListener {
   public void actionPerformed(ActionEvent e) {
    if(Exe_operate) { 
@@ -271,7 +271,7 @@ public class UI extends JFrame {
   }
  }
   
- //The Substraction method
+ //The Substraction anonymous class
  class Substraction implements ActionListener {
   public void actionPerformed(ActionEvent e) {
    if(Exe_operate) { 
@@ -287,7 +287,7 @@ public class UI extends JFrame {
   }
  }
 
- //The Clear method
+ //The Clear anonymous class
  class Clear implements ActionListener {
   public void actionPerformed(ActionEvent e) {
    Exe_operate = false;
@@ -298,7 +298,7 @@ public class UI extends JFrame {
   }
  } 
 
- //The Equalization method
+ //The Equalization anonymous class
  class Egal implements ActionListener {
   public void actionPerformed(ActionEvent e) {
    Calculate();  
